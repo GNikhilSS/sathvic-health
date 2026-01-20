@@ -10,6 +10,14 @@ const Home = () => {
         navigate("/quiz")
     }
 
+    // direct navigation to result page
+    const goToResultPage = () =>{
+        navigate("/result", {
+            state:{vataScore: 8, pittaScore: 2, kaphaScore: 5}
+        });
+    };
+    // remove this function after completing the development
+
     return (
         <>
         <Navbar />
@@ -20,6 +28,12 @@ const Home = () => {
             <button className='border-2 p-3 rounded-2xl m-2' onClick={takeQuiz}>Know your Body</button>
             <p>It takes less than 3 minutes</p>
         </div>
+
+        {/* direct redirection to the result page, not to take the quiz each and every time */}
+        <button onClick={goToResultPage}>
+            Go to Result page(Dev mode only)
+        </button>
+        {/* till here this code should be removed after developing the result page */}
         </>
     )
 }
