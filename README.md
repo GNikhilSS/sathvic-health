@@ -41,3 +41,7 @@ WORK_FLOW:
      and their info as value and in that value also they have key and value pairs as title, description (for now and in future expecting to add more key values).
    - Now without using many pages and file we dynamically accessing using props method only in single componenet, so it reduces 
      editing similar code many times and also duplicate code.
+
+6. - 20-01-26 - Updating the result page staticly 
+   - created a button in home page which navigates to the result page with out taking the quiz, for now developing the result   
+     page for vata body type in future will develop for remaining body types. 
