@@ -1,4 +1,3 @@
-import React from 'react'
 import Quiz from './pages/Quiz'
 import Result from './pages/Result'
 import Navbar from './components/Navbar'
